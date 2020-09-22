@@ -1,0 +1,42 @@
+header{
+    min-height: 100vh;
+}
+.title-underline{
+height: 15px;
+width: 250px;
+margin: 0px auto;
+}
+#skills{
+    min-height: 100vh;
+}
+.hieght-80{
+    min-height: 100vh;
+}
+
+.about-picture{
+    background-image: url(/image/enginnering.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#filler,#progress{
+      background-image:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.9)),url(/image/pexels-wendy-wei-5041858.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 80vh;
+}
+@media (min-width:500px){
+    .head{
+        font-size: 15px;
+    }
+}
+@media (min-width:100px){
+    .head{
+        font-size:13px;
+        margin-left: 0px;
+    }
+   
+}
